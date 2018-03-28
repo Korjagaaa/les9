@@ -1,6 +1,6 @@
 <?php
 
-class Car{
+class Car {
 	public $carBrand;
     public $carColor;
     public $carPrice;
@@ -28,7 +28,7 @@ $car3->carPrice = 110000;
 
 $car1->getDiscount(10);
 
-class Tv{
+class Tv {
     public $tvBrand;
     public $tvSize;
     public function __construct($Brand, $Size)
@@ -41,7 +41,7 @@ class Tv{
 $tv1 = new Tv('Samsung', 24);
 $tv2 = new Tv('Sony',20);
 
-class Pen{
+class Pen {
     public $penBrand;
     public $penColor;
     public $penWidth;
@@ -57,7 +57,7 @@ $pen1 = new Pen('Dunhill','Blue',0.25);
 $pen2 = new Pen('Cross', 'Blue', 0.5);
 $pen3 = new Pen('Rotring', 'Black', 0.5);
 
-class Duck{
+class Duck {
     public $duckName;
     public $duckAge;
     public function __construct($Name, $Age)
@@ -70,7 +70,7 @@ class Duck{
 $duck1 = new Duck("Mike",3);
 $duck2 = new Duck('Donald', 2);
 
-class Product{
+class Product {
     public $productCategory;
     public $productName;
     public $productPrice;
